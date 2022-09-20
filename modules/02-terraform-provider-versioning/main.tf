@@ -1,5 +1,6 @@
 resource "random_pet" "pet-name" {
   length = 5
+  prefix = "akabanov"
 }
 
 provider "aws" {
